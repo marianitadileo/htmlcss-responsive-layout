@@ -1,0 +1,66 @@
+/* RESET  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'PT Sans', sans-serif;
+}
+
+/* COMMONS */
+i {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+/* HEADER  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #0084FD;
+    padding: 1.5rem 1rem;
+}
+
+/* MAIN  */
+.card {
+    width: 20rem;
+    background-color: #B5DDFF;
+    border-radius: 5%;
+    margin: 1rem auto 1rem auto;
+    /* debug */
+    height: 22rem;
+}
+
+.large { 
+    height: 35rem;
+}
+
+.top-card-large {
+    /* debug */
+    height: 50%;
+    background-color: #31699f;
+}
+
+.bot-card-large {
+    /* debug */
+    height: 50%;
+    background-color: rosybrown;
+}
+
+.top-card {
+    /* debug */
+    height: 50%;
+    background-color: #31699f;
+}
+
+.bot-card {
+    /* debug */
+    height: 50%;
+    background-color: rosybrown;
+}
