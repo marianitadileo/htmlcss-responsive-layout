@@ -72,9 +72,19 @@ i {
 /* RESPONSIVE  */
 
 @media screen and (min-width: 768px) {
-   .top, .bot {
-    display: flex;
-   }
 
-  
+.top, .bot{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    height: 30rem;
+}
+
+.large {
+    width:calc(60% + 20px);
+}
+
 }
