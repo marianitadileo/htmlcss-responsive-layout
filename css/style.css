@@ -15,9 +15,6 @@ i {
 }
 
 
-
-
-
 /* HEADER  */
 .header {
     display: flex;
@@ -26,6 +23,13 @@ i {
     background-color: #0084FD;
     padding: 1.5rem 1rem;
 }
+
+.bottom-header {
+    display: none;
+}
+
+/* RESPONSIVE  */
+
 
 /* MAIN  */
 .card {
@@ -63,4 +67,14 @@ i {
     /* debug */
     height: 50%;
     background-color: rosybrown;
+}
+
+/* RESPONSIVE  */
+
+@media screen and (min-width: 768px) {
+   .top, .bot {
+    display: flex;
+   }
+
+  
 }
