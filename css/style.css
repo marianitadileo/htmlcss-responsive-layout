@@ -91,7 +91,6 @@ body {
 }
 
 .strategic-card {
-    width: 20rem;
     margin: 2rem;
     /* debug */
     height: 25rem;
@@ -99,10 +98,9 @@ body {
 }
 
 .app-develop {
-    width: 20rem;
     margin: 2rem;
     /* debug */
-    height: 25rem;
+    height: 20rem;
     background-color: rgb(224, 167, 224);
 }
 
