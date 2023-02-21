@@ -32,6 +32,8 @@ i {
 
 
 /* MAIN  */
+
+/* Section-1 */
 .card {
     width: 20rem;
     background-color: #B5DDFF;
@@ -69,22 +71,35 @@ i {
     background-color: rosybrown;
 }
 
-/* RESPONSIVE  */
+/* Section-2 */
 
-@media screen and (min-width: 768px) {
+.strategic-planner{
+    background-color: #9792E4;
+}
 
-.top, .bot{
+.strategic-card {
+    width: 20rem;
+    margin: 2rem;
+    /* debug */
+    height: 25rem;
+    background-color: rgb(224, 167, 224);
+}
+
+.app-develop {
+    width: 20rem;
+    margin: 2rem;
+    /* debug */
+    height: 25rem;
+    background-color: rgb(224, 167, 224);
+}
+
+/* Section-3  */
+
+.container-sec3 {
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
 }
 
-.card {
-    width: calc(100% / 3 - 20px);
-    height: 30rem;
-}
-
-.large {
-    width:calc(60% + 20px);
-}
-
+.card-testimonial {
+    background-color: lightskyblue;
 }
