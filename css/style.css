@@ -14,6 +14,13 @@ i {
     font-size: 1.8rem;
 }
 
+.button {
+    color: white;
+    background-color: #0084FD;
+    padding: 10px 10px;
+    border-radius: 50px;
+    text-align: center;
+}
 
 /* HEADER  */
 .header {
@@ -28,9 +35,6 @@ i {
     display: none;
 }
 
-/* RESPONSIVE  */
-
-
 /* MAIN  */
 
 /* Section-1 */
@@ -39,6 +43,8 @@ i {
     background-color: #B5DDFF;
     border-radius: 5%;
     margin: 1rem auto 1rem auto;
+    padding: 30px 30px 0 30px;
+    
     /* debug */
     height: 22rem;
 }
@@ -47,19 +53,30 @@ i {
     height: 35rem;
 }
 
-.top-card-large {
-    /* debug */
-    height: 50%;
-    background-color: #31699f;
+.top-card-large h3 {
+    color: #0084FD;   
+}
+
+.card p {
+    padding: 20px 0;
+}
+
+.bot-card-large img {
+    width: 80%;
+    height: 100%; 
 }
 
 .bot-card-large {
-    /* debug */
-    height: 50%;
-    background-color: rosybrown;
+    background-color: #9792E4;
+}
+.top-card-large {
+    text-align: left;
 }
 
+
 .top-card {
+    color: #0084FD;
+    font-size: 1.5rem;
     /* debug */
     height: 50%;
     background-color: #31699f;

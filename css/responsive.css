@@ -46,7 +46,7 @@
 /* Section-1  */
 main {
     margin: 5rem 5rem;
-}   
+}  
 
 .top, .bot{
     display: flex;
@@ -56,10 +56,11 @@ main {
 .card {
     width: calc(100% / 3 - 20px);
     height: 20rem;
+    margin: 10px;
 }
     
 .large {
-    width: calc(60% + 20px);
+    width: calc(60% + 35px);
 }
 
 /* Section-2  */
