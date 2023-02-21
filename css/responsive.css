@@ -15,6 +15,20 @@
     
 .large {
     width:calc(60% + 20px);
+    height: 30rem;
+}
+
+.top-card-large {
+    text-align: left;
+}
+
+.bot-card-large img {
+   width: 50%;
+   height: 100%;
+}
+
+.button {
+    width: 50%;
 }
 
 /* Section-2 */
@@ -42,7 +56,34 @@
 
 
 @media screen and (min-width: 992px) {
- 
+
+/* HEADER  */
+
+.bottom-header {
+    display: flex;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+.white-button {
+    padding: 10px 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.header i {
+    display: none;
+}
+
 /* Section-1  */
 main {
     margin: 5rem 5rem;
@@ -54,14 +95,15 @@ main {
 }
     
 .card {
-    width: calc(100% / 3 - 20px);
-    height: 20rem;
+    height: 18rem;
     margin: 10px;
+    font-size: 0.7rem;
 }
     
 .large {
-    width: calc(60% + 35px);
+  
 }
+
 
 /* Section-2  */
 .strategic-planner {

@@ -49,15 +49,11 @@ body {
     text-align: center;
 }
 
+
 .card i {
     padding-top: 1.3rem;
     font-size: 3.8rem;
 }
-
-.large { 
-    height: 35rem;
-}
-
 
 .card-group h3 {
     color: #0084FD;  
@@ -65,18 +61,18 @@ body {
 }
 
 .card p {
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .bot-card-large img {
-    width: 80%;
-    height: 100%; 
+    width: 100%;
+    padding-top: 1.5rem;
 }
 
-.bot-card-large {
-    background-color: #9792E4;
+#apple {
+    font-size: 1rem;
+    padding: 0;
 }
-
 .top-card-large {
     text-align: left;
 }
