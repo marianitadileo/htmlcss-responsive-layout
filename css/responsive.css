@@ -10,12 +10,13 @@
     
 .card {
     width: calc(100% / 3 - 20px);
-    height: 30rem;
+}
+.card-group {
+    margin: 5rem 5rem;
 }
     
 .large {
-    width:calc(60% + 20px);
-    height: 30rem;
+    width:calc(100% / 3 * 2 - 20px);
 }
 
 .top-card-large {
@@ -23,8 +24,7 @@
 }
 
 .bot-card-large img {
-   width: 50%;
-   height: 100%;
+   width: 250px;
 }
 
 .button {
@@ -32,33 +32,39 @@
 }
 
 /* Section-2 */
+.strategic-planner {
+    margin: 5rem 5rem;
+}
+
 .strategic-card {
     width: 30rem;
-    margin: 0 auto;
+    margin: 5rem 5rem;
 }
 
 .app-develop {
     width: 30rem;
-    margin: 0 auto;
-    margin-top: 2rem;
+    margin: 2rem auto 2rem auto;
 }
 
-
-
-
-
-
-
-
-
-
+/* Section-3 */
+.container-sec3 {
+    margin-top: 3rem;
 }
 
+.card-testimonial {
+    display: flex;
+    width: 80%;
+    border-radius: 25px;
+    margin: 1rem auto 1rem auto;
+    padding: 30px 30px 0 30px;
+    background-color: #9792E4;
+}
+
+}
 
 @media screen and (min-width: 992px) {
 
 /* HEADER  */
-
 .bottom-header {
     display: flex;
 }
@@ -70,7 +76,12 @@
 }
 
 ul li {
+    padding: 10px;
+}
+
+ul li a {
     text-decoration: none;
+    color: white;
 }
 
 .white-button {
@@ -80,36 +91,29 @@ ul li {
     border-radius: 50px;
 }
 
+.white-button a {
+    color: black;
+}
+
 .header i {
     display: none;
 }
 
 /* Section-1  */
-main {
-    margin: 5rem 5rem;
-}  
-
 .top, .bot{
     display: flex;
     flex-wrap: wrap;  
 }
     
 .card {
-    height: 18rem;
     margin: 10px;
-    font-size: 0.7rem;
 }
-    
-.large {
-  
-}
-
 
 /* Section-2  */
 .strategic-planner {
-    width: 90%;
+    width: 80%;
     display: flex;
-    margin: 0 auto;
+    margin: 0 5rem;
     gap: 2rem;
 }
 
@@ -118,7 +122,3 @@ main {
 }
 
 }
-
-
-
-   

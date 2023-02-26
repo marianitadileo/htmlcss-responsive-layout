@@ -11,7 +11,6 @@ body {
 
 /* COMMONS */
 
-
 .button {
     color: white;
     background-color: #0084FD;
@@ -38,7 +37,6 @@ body {
 }
 
 /* MAIN  */
-
 /* Section-1 */
 .card {
     width: 20rem;
@@ -48,7 +46,6 @@ body {
     padding: 30px 30px 0 30px;
     text-align: center;
 }
-
 
 .card i {
     padding-top: 1.3rem;
@@ -73,6 +70,7 @@ body {
     font-size: 1rem;
     padding: 0;
 }
+
 .top-card-large {
     text-align: left;
 }
@@ -83,34 +81,112 @@ body {
     line-height: 4rem;
 }
 
-
 /* Section-2 */
-
 .strategic-planner{
     background-color: #9792E4;
 }
 
 .strategic-card {
     margin: 2rem;
-    /* debug */
-    height: 25rem;
-    background-color: rgb(224, 167, 224);
+}
+
+.strategic-card img {
+    width: 80%;
+    margin: 0 50px;
+}
+
+.strategic-card h3 {
+    color: white;
+    margin-top: 100px;
+}
+
+.app-develop img {
+    width: 80%;
+}
+
+.strategic-planner {
+    color: white;
+}
+
+.bg-lilla {
+    background-color: #9792E4;
+    width: 100vw;
 }
 
 .app-develop {
     margin: 2rem;
-    /* debug */
-    height: 20rem;
-    background-color: rgb(224, 167, 224);
+    width: 19rem;
+    border-radius: 50px;
+    padding: 0 0 20px 30px;
+    text-align: center;
+}  
+
+.app-develop-container {
+    padding: 30px 30px 10px 30px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.bg-lilla {
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.circle {
+    background-color: #9792E4;
+    border-radius: 60%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 auto;
+    line-height: 2.5rem;
+}
+
+.app-develop p {
+    color: black;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    padding: 1rem 0 1rem 0;
 }
 
 /* Section-3  */
-
 .container-sec3 {
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-text {
+    margin: 20px 5rem;
+}
+
+.card-text h3 {
+    color: #9792E4;
+    margin: 0 auto;
+}
+
+.card-text p {
+    font-size: 18px;
 }
 
 .card-testimonial {
-    background-color: lightskyblue;
+    width: 20rem;
+    border-radius: 5%;
+    margin: 1rem auto 1rem auto;
+    padding: 30px 30px 0 30px;
+    background-color: #9792E4;
+    color: white;
+}
+
+.img-radius img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card-testimonial  p {
+    margin-bottom: 20px;
+}
+
+.text-testimonials h4{
+    margin: 30px 10px;
 }
